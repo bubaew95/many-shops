@@ -16,4 +16,4 @@ Disallow: /framework/*
 Disallow: /*?*
 
 HOST: mirvoditeley.ru
-Sitemap: https://mirvoditeley.ru/sitemap.xml
+Sitemap: https://site.ru/sitemap.xml
