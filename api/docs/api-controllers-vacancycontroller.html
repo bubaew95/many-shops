@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en"/>
+
+    <link href="./assets/b19049ca/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/dca8e349/solarized_light.css" rel="stylesheet">
+    <link href="./assets/d2fc4144/style.css" rel="stylesheet">
+    <script src="./assets/ce7a47d4/jquery.js"></script>
+    <script src="./assets/b19049ca/js/bootstrap.js"></script>
+    <script src="./assets/169e6d67/jssearch.js"></script>
+    <title>VacancyController, api\controllers\VacancyController - MirVoditeley API</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w13" class="navbar-inverse navbar-fixed-top navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w13-collapse"><span
+                    class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="./index.html">MirVoditeley API</a></div>
+        <div id="w13-collapse" class="collapse navbar-collapse">
+            <ul id="w14" class="navbar-nav nav">
+                <li><a href="./index.html">Class reference</a></li>
+            </ul>
+            <div class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-3">
+            <div id="navigation" class="list-group"><a class="list-group-item active" href="#navigation-6"
+                                                       data-toggle="collapse" data-parent="#navigation">api\controllers
+                <b class="caret"></b></a>
+                <div id="navigation-6" class="submenu panel-collapse collapse in"><a class="list-group-item"
+                                                                                     href="./api-controllers-additionalscontroller.html">AdditionalsController</a>
+                    <a class="list-group-item" href="./api-controllers-authcontroller.html">AuthController</a>
+                    <a class="list-group-item" href="./api-controllers-carscontroller.html">CarsController</a>
+                    <a class="list-group-item" href="./api-controllers-locationcontroller.html">LocationController</a>
+                    <a class="list-group-item"
+                       href="./api-controllers-resumecontroller.html">ResumeController</a>
+                    <a class="list-group-item active" href="./api-controllers-vacancycontroller.html">VacancyController</a>
+                    <a class="list-group-item " href="./api-controllers-userscontroller.html">UserController</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 api-content" role="main">
+            <h1>Class api\controllers\VacancyController</h1>
+            <div class="top-nav">
+                <a href="index.html">All Classes</a>
+                | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+            <table class="summaryTable docClass table table-bordered">
+                <colgroup>
+                    <col class="col-name"/>
+                    <col class="col-value"/>
+                </colgroup>
+                <tr>
+                    <th>Inheritance</th>
+                    <td><a href="api-controllers-vacancycontroller.html">api\controllers\VacancyController</a> &raquo;
+                        yii\rest\ActiveController
+                    </td>
+                </tr>
+            </table>
+
+            <div class="class-description">
+                <p><strong></strong></p>
+
+            </div>
+
+            <a id="properties"></a>
+
+            <div class="summary doc-property">
+                <h2>Public Properties</h2>
+
+                <p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+                <table class="summary-table table table-striped table-bordered table-hover">
+                    <colgroup>
+                        <col class="col-property"/>
+                        <col class="col-type"/>
+                        <col class="col-description"/>
+                        <col class="col-defined"/>
+                    </colgroup>
+                    <tr>
+                        <th>Property</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th>Defined By</th>
+                    </tr>
+                    <tr id="$modelClass">
+                        <td><a href="api-controllers-vacancycontroller.html#$modelClass-detail">$modelClass</a></td>
+                        <td></td>
+                        <td></td>
+                        <td><a href="api-controllers-vacancycontroller.html">api\controllers\VacancyController</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <a id="methods"></a>
+
+            <div class="summary doc-method">
+                <h2>Public Methods</h2>
+
+                <p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+                <table class="summary-table table table-striped table-bordered table-hover">
+                    <colgroup>
+                        <col class="col-method"/>
+                        <col class="col-description"/>
+                        <col class="col-defined"/>
+                    </colgroup>
+                    <tr>
+                        <th>Method</th>
+                        <th>Description</th>
+                        <th>Defined By</th>
+                    </tr>
+                    <tr id="actionDelete()">
+                        <td><a href="api-controllers-vacancycontroller.html#actionDelete()-detail">actionDelete()</a>
+                        </td>
+                        <td>Удалить вакансию</td>
+                        <td><a href="api-controllers-vacancycontroller.html">api\controllers\VacancyController</a></td>
+                    </tr>
+                    <tr id="actionIndex()">
+                        <td><a href="api-controllers-vacancycontroller.html#actionIndex()-detail">actionIndex()</a></td>
+                        <td>Список случайных вакансий</td>
+                        <td><a href="api-controllers-vacancycontroller.html">api\controllers\VacancyController</a></td>
+                    </tr>
+                    <tr id="actionView()">
+                        <td><a href="api-controllers-vacancycontroller.html#actionView()-detail">actionView()</a></td>
+                        <td>Инфморация о вакансии</td>
+                        <td><a href="api-controllers-vacancycontroller.html">api\controllers\VacancyController</a></td>
+                    </tr>
+                    <tr id="actionUpdate()">
+                        <td><a href="api-controllers-vacancycontroller.html#actionUpdate()-detail">actionUpdate()</a></td>
+                        <td>Обновить вакансию</td>
+                        <td><a href="api-controllers-vacancycontroller.html">api\controllers\VacancyController</a></td>
+                    </tr>
+                    <tr id="actionCreate()">
+                        <td><a href="api-controllers-vacancycontroller.html#actionCreate()-detail">actionCreate()</a></td>
+                        <td>Добавить вакансию</td>
+                        <td><a href="api-controllers-vacancycontroller.html">api\controllers\VacancyController</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <a id="events"></a>
+
+            <a id="constants"></a>
+
+            <h2>Property Details</h2>
+
+            <div class="property-doc">
+
+                <div class="detail-header h3" id="$modelClass-detail">
+                    <a href="#" class="tool-link" title="go to top"><span
+                            class="glyphicon glyphicon-arrow-up"></span></a>
+                    <a class="tool-link hash" href="api-controllers-vacancycontroller.html#$modelClass-detail"
+                       title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+
+                    $modelClass <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+                </div>
+
+
+                <div class="doc-description">
+
+                </div>
+
+                <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"></span>
+                    <a href="api-controllers-vacancycontroller.html#$modelClass-detail">$modelClass</a> <span
+                            style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span
+                            style="color: #DD0000">'common\models\adv\Vacancy'</span></div>
+
+            </div>
+            <h2>Method Details</h2>
+
+            <div class="method-doc">
+
+                <div class="detail-header h3" id="actionDelete()-detail">
+                    <a href="#" class="tool-link" title="go to top"><span
+                            class="glyphicon glyphicon-arrow-up"></span></a>
+                    <a class="tool-link hash" href="api-controllers-vacancycontroller.html#actionDelete()-detail"
+                       title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+
+                    DELETE запрос
+                    <span class="detail-header-tag small">
+                    </span>
+                </div>
+
+                <div class="doc-description">
+                    <p><strong>
+                        Удалить резюме пользователя
+                    </strong></p>
+                </div>
+
+                <table class="detail-table table table-striped table-bordered table-hover">
+                    <tr>
+                        <td colspan="3" class="signature">
+                            <span class="signature-defs">
+                                <span class="domain"></span>/api/vacancies/{id}
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="param-name-col"><span style="color: #0000BB">$id</span></td>
+                        <td class="param-type-col"><a href="https://www.php.net/language.types.integer">Integer</a></td>
+                        <td class="param-desc-col">Идентификатор резюме</td>
+                    </tr>
+                    <tr>
+                        <td class="param-name-col"><span style="color: #0000BB">$token</span></td>
+                        <td class="param-type-col"><a href="https://www.php.net/language.types.string">String</a></td>
+                        <td class="param-desc-col">Токен</td>
+                    </tr>
+                </table>
+
+                <h2>Пример запроса</h2>
+                <div class="response">
+                    <code>
+                        <span class="domain"></span>/api/vacancies/45?token=12gagag235dbjg456_235f
+                    </code>
+                </div>
+
+                <h2>Response</h2>
+                <div class="response">
+                    <pre>
+                        <code style="color:#c8374e">
+{
+    "success": true
+}
+                    </code>
+                    </pre>
+                </div>
+
+                <!--	-->
+
+                <div class="detail-header h3" id="actionIndex()-detail">
+                    <a href="#" class="tool-link" title="go to top"><span
+                            class="glyphicon glyphicon-arrow-up"></span></a>
+                    <a class="tool-link hash" href="api-controllers-vacancycontroller.html#actionIndex()-detail"
+                       title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+
+                    GET запрос
+                    <span class="detail-header-tag small">
+                    </span>
+                </div>
+
+
+                <div class="doc-description">
+                    <p><strong>
+                        Список случайных вакансий
+                    </strong></p>
+                </div>
+
+                <table class="detail-table table table-striped table-bordered table-hover">
+                    <tr>
+                        <td colspan="3" class="signature">
+                            <span class="signature-defs">
+                                <span class="domain"></span>/api/vacancies
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="param-name-col"><span style="color: #0000BB">$limit</span></td>
+                        <td class="param-type-col"><a href="https://www.php.net/language.types.integer">integer</a></td>
+                        <td class="param-desc-col">До</td>
+                    </tr>
+                    <tr>
+                        <td class="param-name-col"><span style="color: #0000BB">$offset</span></td>
+                        <td class="param-type-col"><a href="https://www.php.net/language.types.integer">integer</a></td>
+                        <td class="param-desc-col">От</td>
+                    </tr>
+                </table>
+
+                <h2>Пример запроса</h2>
+                <div class="response">
+                    <code>
+                        <span class="domain"></span>/api/vacancies
+                    </code>
+                </div>
+
+                <h2>Response</h2>
+                <div class="response">
+                    <pre>
+                        <code style="color:#c8374e">
+[
+    {
+        "id": "3",
+        "user_id": "2", <span style="color:gray">//ИД пользователя</span>
+        "region_id": "3282",  <span style="color:gray">//ИД региона</span>
+        "city_id": "3286", <span style="color:gray">//ИД города</span>
+        "marka": "ВАЗ", <span style="color:gray">//Марка авто</span>
+        "model": "Приор", <span style="color:gray">//Модель авто</span>
+        "year": "2019", <span style="color:gray">//Год авто</span>
+        "nationality": "Россия", <span style="color:gray">//Гражданство</span>
+        "price_start": "10", <span style="color:gray">//Начальная сумма</span>
+        "price_end": "20", <span style="color:gray">//Конечная сумма</span>
+        "count_drivers": "2", <span style="color:gray">//Кол-во водителей</span>
+        "work_experience": "Туда сюда", <span style="color:gray">//Стаж-опыт работы</span>
+        "req_driver": "etes", <span style="color:gray">//Пожелания к водителю</span>
+        "education": "2", <span style="color:gray">//Образование</span>
+        "comment": "tet",  <span style="color:gray">//Комментарий</span>
+        "additional_skill": "Слесарь", <span style="color:gray">//Навыки</span>
+        "status": "1", <span style="color:gray">//Статус вакансии</span>
+        "created_at": "1596905632", <span style="color:gray">//Дата создания в формате UNIX</span>
+        "updated_at": "1596905632", <span style="color:gray">//Дата обновления в формате UNIX</span>
+        "tr_cat_id": "334", <span style="color:gray">//ИД категории ТС</span>
+        "views": "0", <span style="color:gray">//Кол-во просмотров</span>
+        "user": { <span style="color:gray">//Информация о пользователе</span>
+            "id": "2",
+            "phone": "79010010102",
+            "email": "test1@mail.ru",
+            "image": "uploads/leg/13419acfac4b2bbf1b6a7fc5734d7b43.jpg",
+            "type": "2"
+        },
+        "userLeg": { <span style="color:gray">//Данный параметр будет заполнен если user.type будет равен 2</span>
+            "id": "1",
+            "user_id": "2",
+            "org_name": "test",
+            "inn": "1231-23235-2"
+        },
+        "userInd": { <span style="color:gray">//Данный параметр будет заполнен если user.type будет равен 1</span>
+            "id": "4",
+            "user_id": "5",
+            "firstname": "tets",
+            "name": "tets",
+            "lastname": "etets",
+            "birthday": "29-01-1998"
+        },
+        "linkTransport": [ <span style="color:gray">//Список транспортов</span>
+            {
+                "id": "5",
+                "tr_cat_id": "234",
+                "value": "Яхта"
+            },
+            {
+                "id": "6",
+                "tr_cat_id": "234",
+                "value": "Катер"
+            }
+        ],
+        "region": { <span style="color:gray">//Регион</span>
+            "id": "3282",
+            "name": "Астраханская область"
+        },
+        "city": { <span style="color:gray">//Город</span>
+            "id": "3284",
+            "region_id": "3282",
+            "name": "Ахтубинск"
+        }
+    }
+    .....
+]
+                    </code>
+                    </pre>
+                </div>
+
+                <!--	-->
+
+                <h2>Пример фильтрации</h2>
+                <div class="response">
+                    <code>
+                        <span class="domain"></span>/api/vacancies
+                    </code>
+                </div>
+
+                <h2>Response</h2>
+                <div class="response">
+                    <pre>
+                        <code style="color:#c8374e">
+{
+    "q": "Самосвал", <span style="color:gray">//Поисковый запрос</span>
+    "region": 123, <span style="color:gray">//Регион</span>
+    "city": 123, <span style="color:gray">//Город</span>
+    "categoryTr": 2, <span style="color:gray">//Категория ТС</span>
+    "transport_id": [1,2,3], <span style="color:gray">//Названия ТС</span>
+    "driver_licence_id": [1,2,3], <span style="color:gray">//Категория ВУ</span>
+    "work_schedule_id": [1,2,3], <span style="color:gray">//График работы</span>
+    "opport_id": [1,2,3], <span style="color:gray">//Возможности</span>
+}
+                        </code>
+                    </pre>
+                </div>
+
+                    <!-- -->
+
+                <div class="detail-header h3" id="actionView()-detail">
+                    <a href="#" class="tool-link" title="go to top"><span
+                            class="glyphicon glyphicon-arrow-up"></span></a>
+                    <a class="tool-link hash" href="api-controllers-vacancycontroller.html#actions()-detail"
+                       title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+
+                    GET запрос
+                    <span class="detail-header-tag small">
+                    </span>
+                </div>
+
+
+                <div class="doc-description">
+                    <p><strong>
+                        Информация о вакансии
+                    </strong></p>
+                </div>
+
+                <table class="detail-table table table-striped table-bordered table-hover">
+                    <tr>
+                        <td colspan="3" class="signature">
+                            <span class="signature-defs">
+                                <span class="domain"></span>/api/vacancies/{id}
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="param-name-col"><span style="color: #0000BB">$id</span></td>
+                        <td class="param-type-col"><a href="https://www.php.net/language.types.integer">integer</a></td>
+                        <td class="param-desc-col">Идентификатор резюме</td>
+                    </tr>
+                    <tr>
+                        <td class="param-name-col"><span style="color: #0000BB">$token</span></td>
+                        <td class="param-type-col"><a href="https://www.php.net/language.types.string">String</a></td>
+                        <td class="param-desc-col">Токен</td>
+                    </tr>
+                </table>
+
+                <h2>Пример запроса</h2>
+                <div class="response">
+                    <code>
+                        <span class="domain"></span>/api/vacancies/2?token=12gagag235dbjg456_235f
+                    </code>
+                </div>
+
+                <h2>Response</h2>
+                <div class="response">
+                    <pre>
+                        <code style="color:#c8374e">
+{
+    "id": "3",
+    "user_id": "2", <span style="color:gray">//ИД пользователя</span>
+    "region_id": "3282",  <span style="color:gray">//ИД региона</span>
+    "city_id": "3286", <span style="color:gray">//ИД города</span>
+    "marka": "ВАЗ", <span style="color:gray">//Марка авто</span>
+    "model": "Приор", <span style="color:gray">//Модель авто</span>
+    "year": "2019", <span style="color:gray">//Год авто</span>
+    "nationality": "Россия", <span style="color:gray">//Гражданство</span>
+    "price_start": "10", <span style="color:gray">//Начальная сумма</span>
+    "price_end": "20", <span style="color:gray">//Конечная сумма</span>
+    "count_drivers": "2", <span style="color:gray">//Кол-во водителей</span>
+    "work_experience": "Туда сюда", <span style="color:gray">//Стаж-опыт работы</span>
+    "req_driver": "etes", <span style="color:gray">//Пожелания к водителю</span>
+    "education": "2", <span style="color:gray">//Образование</span>
+    "comment": "tet",  <span style="color:gray">//Комментарий</span>
+    "additional_skill": "Слесарь", <span style="color:gray">//Навыки</span>
+    "status": "1", <span style="color:gray">//Статус вакансии</span>
+    "created_at": "1596905632", <span style="color:gray">//Дата создания в формате UNIX</span>
+    "updated_at": "1596905632", <span style="color:gray">//Дата обновления в формате UNIX</span>
+    "tr_cat_id": "334", <span style="color:gray">//ИД категории ТС</span>
+    "views": "0", <span style="color:gray">//Кол-во просмотров</span>
+    "user": { <span style="color:gray">//Информация о пользователе</span>
+        "id": "2",
+        "phone": "79010010102",
+        "email": "test1@mail.ru",
+        "image": "uploads/leg/13419acfac4b2bbf1b6a7fc5734d7b43.jpg",
+        "type": "2"
+    },
+    "userLeg": { <span style="color:gray">//Данный параметр будет заполнен если user.type будет равен 2</span>
+        "id": "1",
+        "user_id": "2",
+        "org_name": "test",
+        "inn": "1231-23235-2"
+    },
+    "userLeg": { <span style="color:gray">//Данный параметр будет заполнен если user.type будет равен 2</span>
+        "id": "1",
+        "user_id": "2",
+        "org_name": "test",
+        "inn": "1231-23235-2"
+    },
+    "userInd": { <span style="color:gray">//Данный параметр будет заполнен если user.type будет равен 1</span>
+        "id": "4",
+        "user_id": "5",
+        "firstname": "tets",
+        "name": "tets",
+        "lastname": "etets",
+        "birthday": "29-01-1998"
+    },
+    "linkTransport": [ <span style="color:gray">//Список транспортов</span>
+        {
+            "id": "5",
+            "tr_cat_id": "234",
+            "value": "Яхта"
+        },
+        {
+            "id": "6",
+            "tr_cat_id": "234",
+            "value": "Катер"
+        }
+    ],
+    "region": { <span style="color:gray">//Регион</span>
+        "id": "3282",
+        "name": "Астраханская область"
+    },
+    "city": { <span style="color:gray">//Город</span>
+        "id": "3284",
+        "region_id": "3282",
+        "name": "Ахтубинск"
+    }
+}
+                    </code>
+                    </pre>
+                </div>
+
+                <!--	-->
+
+                <div class="detail-header h3" id="actionUpdate()-detail">
+                    <a href="#" class="tool-link" title="go to top"><span
+                            class="glyphicon glyphicon-arrow-up"></span></a>
+                    <a class="tool-link hash" href="api-controllers-vacancycontroller.html#behaviors()-detail"
+                       title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+
+                    PUT запрос
+                    <span class="detail-header-tag small"></span>
+                </div>
+
+
+                <div class="doc-description">
+                    <p><strong>
+                        Редактирование резюме
+                    </strong></p>
+                </div>
+
+                <table class="detail-table table table-striped table-bordered table-hover">
+                    <tr>
+                        <td colspan="3" class="signature">
+                            <span class="signature-defs">
+                                <span class="domain"></span>/api/vacancies/{id}
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="param-name-col"><span style="color: #0000BB">$id</span></td>
+                        <td class="param-type-col"><a href="https://www.php.net/language.types.integer">integer</a></td>
+                        <td class="param-desc-col">Идентификатор резюме</td>
+                    </tr>
+                    <tr>
+                        <td class="param-name-col"><span style="color: #0000BB">$token</span></td>
+                        <td class="param-type-col"><a href="https://www.php.net/language.types.string">String</a></td>
+                        <td class="param-desc-col">Токен</td>
+                    </tr>
+                </table>
+
+                <h2>Пример запроса</h2>
+                <div class="response">
+                    <code>
+                        <span class="domain"></span>/api/vacancies/1?token=12gagag235dbjg456_235f
+                    </code>
+                </div>
+
+                <h2>Response</h2>
+                <div class="response">
+                    <pre>
+                        <code style="color:#c8374e">
+{
+    "user_id": "2", <span style="color:gray">//ИД пользователя</span>
+    "region_id": "3282",  <span style="color:gray">//ИД региона</span>
+    "city_id": "3286", <span style="color:gray">//ИД города</span>
+    "marka": "ВАЗ", <span style="color:gray">//Марка авто</span>
+    "model": "Приор", <span style="color:gray">//Модель авто</span>
+    "year": "2019", <span style="color:gray">//Год авто</span>
+    "nationality": "Россия", <span style="color:gray">//Гражданство</span>
+    "price_start": "10", <span style="color:gray">//Начальная сумма</span>
+    "price_end": "20", <span style="color:gray">//Конечная сумма</span>
+    "count_drivers": "2", <span style="color:gray">//Кол-во водителей</span>
+    "work_experience": "Туда сюда", <span style="color:gray">//Стаж-опыт работы</span>
+    "req_driver": "etes", <span style="color:gray">//Пожелания к водителю</span>
+    "education": "2", <span style="color:gray">//Образование</span>
+    "comment": "tet",  <span style="color:gray">//Комментарий</span>
+    "additional_skill": "Слесарь", <span style="color:gray">//Навыки</span>
+    "status": "1", <span style="color:gray">//Статус вакансии</span>
+    "created_at": "1596905632", <span style="color:gray">//Дата создания в формате UNIX</span>
+    "updated_at": "1596905632", <span style="color:gray">//Дата обновления в формате UNIX</span>
+    "tr_cat_id": "334", <span style="color:gray">//ИД категории ТС</span>
+    "views": "0", <span style="color:gray">//Кол-во просмотров</span>
+}
+                    </code>
+                    </pre>
+                </div>
+
+                <!--	-->
+
+                <div class="detail-header h3" id="actionCreate()-detail">
+                    <a href="#" class="tool-link" title="go to top"><span
+                            class="glyphicon glyphicon-arrow-up"></span></a>
+                    <a class="tool-link hash" href="api-controllers-vacancycontroller.html#behaviors()-detail"
+                       title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+
+                    POST запрос
+                    <span class="detail-header-tag small"></span>
+                </div>
+
+
+                <div class="doc-description">
+                    <p><strong>
+                        Добавить вакансию
+                    </strong></p>
+                </div>
+
+                <table class="detail-table table table-striped table-bordered table-hover">
+                    <tr>
+                        <td colspan="3" class="signature">
+                            <span class="signature-defs">
+                                <span class="domain"></span>/api/vacancies
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="param-name-col"><span style="color: #0000BB">$token</span></td>
+                        <td class="param-type-col"><a href="https://www.php.net/language.types.string">String</a></td>
+                        <td class="param-desc-col">Токен</td>
+                    </tr>
+                </table>
+
+                <h2>Пример запроса</h2>
+                <div class="response">
+                    <code>
+                        <span class="domain"></span>/api/vacancies?token=12gagag235dbjg456_235f
+                    </code>
+                </div>
+
+                <h2>Response</h2>
+                <div class="response">
+                    <pre>
+                        <code style="color:#c8374e">
+{
+    "user_id": "2", <span style="color:gray">//ИД пользователя</span>
+    "region_id": "3282",  <span style="color:gray">//ИД региона</span>
+    "city_id": "3286", <span style="color:gray">//ИД города</span>
+    "marka": "ВАЗ", <span style="color:gray">//Марка авто</span>
+    "model": "Приор", <span style="color:gray">//Модель авто</span>
+    "year": "2019", <span style="color:gray">//Год авто</span>
+    "nationality": "Россия", <span style="color:gray">//Гражданство</span>
+    "price_start": "10", <span style="color:gray">//Начальная сумма</span>
+    "price_end": "20", <span style="color:gray">//Конечная сумма</span>
+    "count_drivers": "2", <span style="color:gray">//Кол-во водителей</span>
+    "work_experience": "Туда сюда", <span style="color:gray">//Стаж-опыт работы</span>
+    "req_driver": "etes", <span style="color:gray">//Пожелания к водителю</span>
+    "education": "2", <span style="color:gray">//Образование</span>
+    "comment": "tet",  <span style="color:gray">//Комментарий</span>
+    "additional_skill": "Слесарь", <span style="color:gray">//Навыки</span>
+    "status": "1", <span style="color:gray">//Статус вакансии</span>
+    "created_at": "1596905632", <span style="color:gray">//Дата создания в формате UNIX</span>
+    "updated_at": "1596905632", <span style="color:gray">//Дата обновления в формате UNIX</span>
+    "tr_cat_id": "334", <span style="color:gray">//ИД категории ТС</span>
+    "views": "0", <span style="color:gray">//Кол-во просмотров</span>
+}
+                    </code>
+                    </pre>
+                </div>
+
+                <!--	-->
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        $("a.toggle").on('click', function () {
+            var $this = $(this);
+            if ($this.hasClass('properties-hidden')) {
+                $this.text($this.text().replace(/Show/, 'Hide'));
+                $this.parents(".summary").find(".inherited").show();
+                $this.removeClass('properties-hidden');
+            } else {
+                $this.text($this.text().replace(/Hide/, 'Show'));
+                $this.parents(".summary").find(".inherited").hide();
+                $this.addClass('properties-hidden');
+            }
+
+            return false;
+        });
+        /*
+         $(".sourceCode a.show").toggle(function () {
+         $(this).text($(this).text().replace(/show/,'hide'));
+         $(this).parents(".sourceCode").find("div.code").show();
+         },function () {
+         $(this).text($(this).text().replace(/hide/,'show'));
+         $(this).parents(".sourceCode").find("div.code").hide();
+         });
+         $("a.sourceLink").click(function () {
+         $(this).attr('target','_blank');
+         });
+         */
+        /*]]>*/
+    </script>
+</div>
+
+<footer class="footer">
+    <p class="pull-right"><small>Page generated on Mon, 10 Aug 2020 07:14:24 +0000</small></p>
+    Powered by <a href="https://www.instagram.com/borzz.one/" rel="external">Borzz.One</a></footer>
+
+<script>jQuery(function ($) {
+    $('.domain').text(window.location.origin)
+    var shiftWindow = function () {
+        scrollBy(0, -50)
+    };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+    var element = document.createElement("script");
+    element.src = "./jssearch.index.js";
+    document.body.appendChild(element);
+
+    var searchBox = $('#searchbox');
+
+// search when typing in search field
+    searchBox.on("keyup", function (event) {
+        var query = $(this).val();
+
+        if (query == '' || event.which == 27) {
+            $('#search-resultbox').hide();
+            return;
+        } else if (event.which == 13) {
+            var selectedLink = $('#search-resultbox a.selected');
+            if (selectedLink.length != 0) {
+                document.location = selectedLink.attr('href');
+                return;
+            }
+        } else if (event.which == 38 || event.which == 40) {
+            $('#search-resultbox').show();
+
+            var selected = $('#search-resultbox a.selected');
+            if (selected.length == 0) {
+                $('#search-results').find('a').first().addClass('selected');
+            } else {
+                var next;
+                if (event.which == 40) {
+                    next = selected.parent().next().find('a').first();
+                } else {
+                    next = selected.parent().prev().find('a').first();
+                }
+                if (next.length != 0) {
+                    var resultbox = $('#search-results');
+                    var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                    selected.removeClass('selected');
+                    next.addClass('selected');
+                }
+            }
+
+            return;
+        }
+        $('#search-resultbox').show();
+        $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+        var result = jssearch.search(query);
+
+        if (result.length > 0) {
+            var i = 0;
+            var resHtml = '';
+
+            for (var key in result) {
+                if (i++ > 20) {
+                    break;
+                }
+                resHtml = resHtml +
+                    '<li><a href="' + result[key].file.u.substr(3) + '"><span class="title">' + result[key].file.t + '</span>' +
+                    '<span class="description">' + result[key].file.d + '</span></a></li>';
+            }
+            $('#search-results').html(resHtml);
+        }
+    });
+
+// hide the search results on ESC
+    $(document).on("keyup", function (event) {
+        if (event.which == 27) {
+            $('#search-resultbox').hide();
+        }
+    });
+// hide search results on click to document
+    $(document).bind('click', function (e) {
+        $('#search-resultbox').hide();
+    });
+// except the following:
+    searchBox.bind('click', function (e) {
+        e.stopPropagation();
+    });
+    $('#search-resultbox').bind('click', function (e) {
+        e.stopPropagation();
+    });
+
+});</script>
+</body>
+</html>

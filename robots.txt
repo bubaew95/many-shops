@@ -1,0 +1,19 @@
+User-agent: Yandex
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /framework/*
+Disallow: /*?*
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /framework/*
+Disallow: /*?*
+
+HOST: mirvoditeley.ru
+Sitemap: https://mirvoditeley.ru/sitemap.xml

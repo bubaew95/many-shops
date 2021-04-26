@@ -1,0 +1,94 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 15
+            [file] => api/controllers/AuthController.php
+            [message] => No docblock for element 'api\controllers\AuthController'
+        )
+
+    [1] => Array
+        (
+            [line] => 17
+            [file] => api/controllers/AuthController.php
+            [message] => No docblock for element 'actionLogin'
+        )
+
+    [2] => Array
+        (
+            [line] => 18
+            [file] => api/controllers/CarsController.php
+            [message] => No docblock for element 'actionCategories'
+        )
+
+    [3] => Array
+        (
+            [line] => 23
+            [file] => api/controllers/CarsController.php
+            [message] => No docblock for element 'actionType'
+        )
+
+    [4] => Array
+        (
+            [line] => 15
+            [file] => api/controllers/LocationController.php
+            [message] => No docblock for element 'actionRegions'
+        )
+
+    [5] => Array
+        (
+            [line] => 20
+            [file] => api/controllers/LocationController.php
+            [message] => No docblock for element 'actionRegion'
+        )
+
+    [6] => Array
+        (
+            [line] => 25
+            [file] => api/controllers/LocationController.php
+            [message] => No docblock for element 'actionCities'
+        )
+
+    [7] => Array
+        (
+            [line] => 14
+            [file] => api/controllers/ResumeController.php
+            [message] => No docblock for element 'api\controllers\ResumeController'
+        )
+
+    [8] => Array
+        (
+            [line] => 16
+            [file] => api/controllers/ResumeController.php
+            [message] => No docblock for element '$modelClass'
+        )
+
+    [9] => Array
+        (
+            [line] => 16
+            [file] => api/controllers/ResumeController.php
+            [message] => No short description for element '$modelClass'
+        )
+
+    [10] => Array
+        (
+            [line] => 13
+            [file] => api/controllers/VacancyController.php
+            [message] => No docblock for element 'api\controllers\VacancyController'
+        )
+
+    [11] => Array
+        (
+            [line] => 15
+            [file] => api/controllers/VacancyController.php
+            [message] => No docblock for element '$modelClass'
+        )
+
+    [12] => Array
+        (
+            [line] => 15
+            [file] => api/controllers/VacancyController.php
+            [message] => No short description for element '$modelClass'
+        )
+
+)
